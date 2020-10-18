@@ -105,6 +105,10 @@ header {
     align-items: center;
 }
 
+.global-link li:hover {
+    opacity: 0.6;
+}
+
 .hamburger,
 .hamburger span {
     display: inline-block;
@@ -156,6 +160,7 @@ header {
     color: #999999;
     font-family: 'Noto Sans JP';
     font-weight: 300;
+    text-decoration: none;
 }
 
 .bread-nav span a.arrow::before {
@@ -362,27 +367,45 @@ a.st-btn {
     min-height: 50px;
     font-size: 16px;
     line-height: 1.2;
+    font-weight: 400;
     text-align: center;
     color: #0c419a;
     border: solid 1px #ccc;
     background: #fff;
-    padding: 15px 18px;
+    padding: 10px 18px;
     position: relative;
     margin: 0 0 20px 0;
+    text-decoration: none;
+}
+
+a.stbox-row {
+   height: 50px;
+   padding: 0;
 }
 
 a.st-btn:hover {
     background: #f4f4f4;
 }
 
-.stbox a:before {
+.stbox a.st-btn:before {
     content: "";
     background: url(images/icon-chevronRight.svg) no-repeat;
     background-size: contain;
     width: 10px;
     height: 10px;
     position: absolute;
-    top: 34px;
+    top: 32px;
+    left: 8px;
+}
+
+.stbox a.stbox-row:before {
+    content: "";
+    background: url(images/icon-chevronRight.svg) no-repeat;
+    background-size: contain;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 21px;
     left: 8px;
 }
 
@@ -431,7 +454,7 @@ h3 {
 }
 
 .prev-info {
-    margin: 60px 0 
+    margin: 60px 0 90px;
 }
  
 .prev-info-text a {
