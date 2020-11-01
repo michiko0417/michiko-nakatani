@@ -1,21 +1,17 @@
 @charset "utf-8";
-
-html, body, div, span, 
-h1, h2, h3, h4, h5, h6, p, 
-small, strong,  ul, li,
-footer, header, menu, nav, section {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, small, strong, ul, li, footer, header, menu, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
     color: #272727;
 }
 
 body {
-    font-family: "Hiragino Kaku Gothic ProN","メイリオ", "meiryo",sans-serif;
+    font-family: "Hiragino Kaku Gothic ProN", "メイリオ", "meiryo", sans-serif;
     color: #272727;
 }
 
@@ -32,8 +28,8 @@ a:hover {
     text-decoration: none;
 }
 
-
 /* header */
+
 .header-sub {
     background-color: #fafbfd;
 }
@@ -105,7 +101,7 @@ a:hover {
     width: 367px;
 }
 
-.logo a:hover , .header-login a:hover {
+.logo a:hover, .header-login a:hover {
     opacity: 0.8;
 }
 
@@ -144,9 +140,9 @@ a:hover {
 }
 
 .header-btn {
-    margin: 14px 0 0 16px;  
+    margin: 14px 0 0 16px;
 }
- 
+
 .header-btn a {
     color: #fff;
     font-size: 15px;
@@ -157,10 +153,9 @@ a:hover {
     letter-spacing: 1px;
 }
 
-.header-tel a:hover , .header-btn a:hover {
+.header-tel a:hover, .header-btn a:hover {
     opacity: 0.8;
 }
-
 
 .header-nav {
     margin-top: 24px;
@@ -179,7 +174,6 @@ a:hover {
     justify-content: center;
     align-items: center;
     border-right: 1px solid #e1e1eb;
-   
 }
 
 .header-nav-item:last-child {
@@ -204,16 +198,15 @@ a:hover {
     width: 100%;
     height: 650px;
     background-repeat: no-repeat;
-    background-position-x: 50%;   
+    background-position-x: 50%;
     position: relative;
 }
 
-.main-image:before{
-    background: transparent linear-gradient(270deg,hsla(0,0%,100%,0),rgba(31,36,40,.5)) 0 0 no-repeat padding-box;
+.main-image:before {
+    background: transparent linear-gradient(270deg, hsla(0, 0%, 100%, 0), rgba(31, 36, 40, .5)) 0 0 no-repeat padding-box;
     content: "";
     display: block;
     height: 650px;
-
 }
 
 .main-title {
@@ -225,30 +218,30 @@ a:hover {
 .main-title span {
     display: inline-block;
     font-size: 26px;
-    text-shadow: 0 0 20px rgba(20,36,47,.3);
+    text-shadow: 0 0 20px rgba(20, 36, 47, .3);
     font-family: 'Gelasio', serif;
     letter-spacing: 3px;
     border-bottom: 1px solid #fff;
     padding-bottom: 3px;
-    color: #fff; 
+    color: #fff;
 }
 
 .main-text {
     font-size: 56px;
-    text-shadow: 0 0 20px rgba(20,36,47,.3);
+    text-shadow: 0 0 20px rgba(20, 36, 47, .3);
     margin-top: 30px;
     letter-spacing: 9px;
-    color: #fff; 
+    color: #fff;
 }
 
 .title-text {
     font-size: 20px;
-    text-shadow: 0 0 20px rgba(20,36,47,.3);
+    text-shadow: 0 0 20px rgba(20, 36, 47, .3);
     line-height: 2;
     font-weight: bold;
     letter-spacing: 1.8px;
     margin-top: 20px;
-    color: #fff; 
+    color: #fff;
 }
 
 .guide-title-inner {
@@ -305,9 +298,9 @@ a:hover {
 
 .guide-img-text {
     padding: 20px;
-    border-radius: 4px;   
+    border-radius: 4px;
     background-color: #f0f3f8;
-    text-align: center; 
+    text-align: center;
     width: 330px;
     box-sizing: border-box;
     margin-bottom: 20px;
@@ -316,14 +309,14 @@ a:hover {
 .guide-text-big {
     font-size: 18px;
     font-weight: bold;
-    color: #1f286f; 
+    color: #1f286f;
     line-height: 1;
 }
 
 .guide-text-small {
     margin-top: 12px;
     font-size: 16px;
-    line-height: 1;    
+    line-height: 1;
 }
 
 .guide-wrapper {
@@ -333,7 +326,7 @@ a:hover {
 }
 
 .guide-number {
-    font-family: Gelasio,serif;
+    font-family: Gelasio, serif;
     font-size: 60px;
     line-height: 1;
     letter-spacing: .12em;
@@ -387,7 +380,7 @@ a:hover {
     right: 0;
     width: 14px;
     height: 14px;
-    background-image: url(images/icon-arrow.svg); 
+    background-image: url(images/icon-arrow.svg);
 }
 
 .link-other {
@@ -410,7 +403,7 @@ a:hover {
 
 .guide-other-list {
     margin-top: 16px;
-    display: flex;   
+    display: flex;
 }
 
 .guide-other-list li {
@@ -428,10 +421,10 @@ a:hover {
     background-color: #1f286f;
     width: 6px;
     height: 6px;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
-.other-02 {
+.other-title-bottom {
     margin-top: 32px;
 }
 
@@ -446,7 +439,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     background-color: #f0f3f8;
-    border-radius: 6px; 
+    border-radius: 6px;
 }
 
 .about-title {
@@ -481,10 +474,10 @@ a:hover {
 
 .about-list {
     padding: 13px 0;
-    border-bottom: 1px solid #e1e1eb;   
+    border-bottom: 1px solid #e1e1eb;
 }
 
-.about-list02 {
+.about-list-movie, .about-list-book {
     border: none;
 }
 
@@ -497,7 +490,7 @@ a:hover {
 }
 
 .contact-inner {
-    max-width:936px;
+    max-width: 936px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -511,15 +504,15 @@ a:hover {
     font-size: 22px;
     line-height: 1;
     letter-spacing: 1.2px;
-    font-family: Gelasio,serif;
+    font-family: Gelasio, serif;
     padding-bottom: 4px;
     position: relative;
-    color: #fff;  
+    color: #fff;
     position: relative;
     display: inline-block;
 }
 
-.contact-text:after{
+.contact-text:after {
     content: "";
     display: block;
     position: absolute;
@@ -571,7 +564,7 @@ a:hover {
     background-color: #EBEEF8;
 }
 
- .contact-top-item a span {
+.contact-top-item a span {
     font-weight: normal;
     font-size: 14px;
 }
@@ -625,13 +618,13 @@ a:hover {
     height: 18px;
 }
 
-.contact-bottom-text, .contact-bottom-time , .contact-bottom-btn a{
+.contact-bottom-text, .contact-bottom-time, .contact-bottom-btn a {
     color: #fff;
 }
 
 .contact-bottom-text {
     font-size: 14px;
-    margin-bottom: 14px;  
+    margin-bottom: 14px;
 }
 
 .contact-right-bottom {
@@ -643,11 +636,11 @@ a:hover {
 
 .contact-btn-bottom {
     display: block;
-	position: relative;
+    position: relative;
     height: 56px;
-	text-align: center;
-	text-decoration: none;
-	color: #fff;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
     border-radius: 4px;
     border: 1px solid #fff;
 }
@@ -668,13 +661,14 @@ a:hover {
 }
 
 .contact-bottom-btn a:hover {
-    background-color: rgba(255, 255, 255,0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .tel-number a {
     position: relative;
 }
-.tel-number a span{
+
+.tel-number a span {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 22px;
     font-weight: bold;
@@ -709,7 +703,6 @@ a:hover {
     background-color: #fafbfd;
 }
 
-
 .relation-inner {
     max-width: 752px;
     margin: 0 auto;
@@ -721,7 +714,7 @@ a:hover {
     font-weight: 700;
     text-align: center;
     line-height: 1;
-    color: #272727; 
+    color: #272727;
     letter-spacing: 2px;
 }
 
@@ -738,7 +731,7 @@ a:hover {
 
 .relation-box:hover {
     opacity: 0.7;
-    transition: 1.0s ;
+    transition: 1.0s;
 }
 
 .relation-img-top {
@@ -756,11 +749,12 @@ a:hover {
     border: 1px solid #e1e1eb;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    height: 65px;  
+    height: 65px;
     margin-top: -3px;
 }
 
 /* bread-nav */
+
 .bread-nav {
     border-top: 1px solid #e1e1eb;
     border-bottom: 1px solid #e1e1eb;
@@ -771,7 +765,7 @@ a:hover {
 .bread-inner {
     max-width: 1120px;
     margin: 0 auto;
-    padding: 0 20px;  
+    padding: 0 20px;
     display: flex;
     align-items: center;
     height: 100%;
@@ -808,7 +802,8 @@ a:hover {
 }
 
 /* footer */
-footer{
+
+footer {
     padding: 37px 0 32px;
     background-color: #fff;
 }
@@ -834,14 +829,14 @@ footer{
     margin-bottom: 10px;
 }
 
-.footer-box-list li a , .footer-right-top li a , .footer-right-bottom li a{
+.footer-box-list li a, .footer-right-top li a, .footer-right-bottom li a {
     font-size: 13px;
     line-height: 2.6;
     display: block;
     color: #272727;
 }
 
-.footer-box-list li a:hover , .footer-right-top li a:hover , .footer-right-bottom li a:hover{
+.footer-box-list li a:hover, .footer-right-top li a:hover, .footer-right-bottom li a:hover {
     color: #1f286f;
 }
 
