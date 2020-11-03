@@ -817,7 +817,11 @@ footer {
 }
 
 .footer-box {
-    width: 23%;
+    width: 18%;
+}
+
+.box-gap {
+    margin-top: 40px;
 }
 
 .footer-box-title {
@@ -836,6 +840,15 @@ footer {
     color: #272727;
 }
 
+.footer-box-list li a.line-adjust {
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.footer-box-list li a.line-gap {
+    margin-bottom: 3px;
+}
+
 .footer-box-list li a:hover, .footer-right-top li a:hover, .footer-right-bottom li a:hover {
     color: #1f286f;
 }
@@ -852,7 +865,7 @@ footer {
     border-left: 1px solid #e1e1eb;
     padding-left: 26px;
     margin-left: 4px;
-    width: 16%;
+    width: 14%;
 }
 
 .footer-right-sns {
